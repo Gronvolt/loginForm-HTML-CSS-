@@ -1,0 +1,126 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+    color: #1F1717;
+
+    margin: 0;
+    background-image: url("assets/page_background.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.content {
+    color: #1F1717;
+    background-color: #FCF5ED;
+    border-radius: 10px;
+    width: 350px;
+    padding: 15px 25px;
+}
+
+.content form {
+    display: flex;
+    flex-direction: column;
+
+    padding: 50px 20px;
+}
+
+form h1 {
+    text-align: center;
+}
+
+form label {
+    font-weight: 800;
+    font-size: 14px;
+    padding: 5px 10px;
+}
+
+.form_username,
+.form_password {
+    margin: 6px 0;
+    display: flex;
+    flex-direction: column;
+}
+
+form input {
+    outline: none;
+    box-sizing: border-box;
+    border: 0;
+    color: #1F1717;
+    padding: 8px 18px;
+    background-color: #F4BF96;
+    border-radius: 10px;
+    font-size: 14px;
+}
+
+#forgotPassword {
+    text-decoration: none;
+    color: #1F1717;
+    font-weight: 600;
+    font-size: 13px;
+    display: block;
+    text-align: right;
+    margin: 5px;
+
+
+}
+
+
+#button_submit {
+    background-image: linear-gradient(to right, #CE5A67 0%, #1F1717 51%, #314755 100%);
+    margin: 10px 0;
+    padding: 15px 0;
+    text-align: center;
+    text-transform: uppercase;
+    transition: 0.5s;
+    background-size: 200% auto;
+    color: white;
+    box-shadow: 0 0 20px #eee;
+    border-radius: 30px;
+    display: block;
+    border: none;
+}
+
+#button_submit:hover {
+    background-position: right center;
+    /* change the direction of the change here */
+    color: #fff;
+    cursor: pointer;
+}
+
+.form_subsection_heading {
+    text-align: center;
+}
+
+.socialAuth {
+    text-align: center;
+}
+
+.socialAuth img {
+    width: 35px;
+}
+
+.socialAuth img:hover {
+    cursor: pointer;
+}
+
+#signUp {
+    color: #FCF5ED;
+    display: block;
+    background-color: #CE5A67;
+    text-decoration: none;
+    text-align: center;
+    border-radius: 10px;
+    padding: 8px;
+    font-weight: 800;
+    transition: all 0.5s;
+}
+
+#signUp:hover {
+    background-color: #1F1717;
+    cursor: pointer;
+}
